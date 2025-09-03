@@ -7,3 +7,5 @@ def VerificaIdade(idade):
         print("Maior de idade")
 
 print(VerificaIdade(idade))
+
+print("Helo Word")
