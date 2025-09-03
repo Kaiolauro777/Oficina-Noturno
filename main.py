@@ -1,6 +1,9 @@
 idade = int(input())
 
-if idade < 18:
-    print("Menor de idade")
-else:
-    print("Maior de idade")
+def VerificaIdade(idade):
+    if idade < 18:
+        print("Menor de idade")
+    else:
+        print("Maior de idade")
+
+print(VerificaIdade(idade))
